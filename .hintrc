@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "disown-opener": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "button-type": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 18",
+    "not safari <= 18"
+  ]
+}
